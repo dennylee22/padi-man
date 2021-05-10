@@ -8,3 +8,5 @@ Members :
 4. Uji Khaidah Resti 
 5. Muhammad Farhan Fauzan 
 6. Stefanie Chandra 
+
+Mentor : Adrianus Yoza

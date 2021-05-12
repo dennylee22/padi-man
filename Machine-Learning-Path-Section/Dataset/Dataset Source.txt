@@ -1,3 +1,4 @@
 List Dataset Source:
 Paddy pests dataset : https://www.kaggle.com/zeeniye/paddy-pests-dataset
 Paddy Disease dataset : https://www.kaggle.com/vbookshelf/rice-leaf-diseases
+Paddy Disease dataset-UCI : https://www.kaggle.com/badhon7432/paddyleafdiseaseuci

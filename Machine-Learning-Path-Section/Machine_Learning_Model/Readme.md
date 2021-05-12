@@ -1,1 +1,2 @@
-Directory to store ML Model
+Directory to store ML Model and notebook
+

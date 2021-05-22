@@ -10,7 +10,7 @@ app.config["DEBUG"] = True
 allowed_files = {'.png','.jpg','.jpeg'}
 allowed_mime = {'image/png','image/jpeg','image/jpg'}
 
-@app.route('/upload', methods=['GET','POST'])
+@app.route('/upload', methods=['POST'])
 def upload():
 	if request.method == "POST":
 		if "file" in request.files:

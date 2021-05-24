@@ -16,7 +16,7 @@ app.config["DEBUG"] = True
 allowed_files = {'.png','.jpg','.jpeg'}
 allowed_mime = {'image/png','image/jpeg','image/jpg'}
 
-#URL buat endpoint http://34.87.146.226:9000/upload
+#URL buat endpoint http://34.126.165.65:9000/upload
 #Bikin HTTP Post request ke URL-nya, pake variabel "file" buat gambarnya
 @app.route('/upload', methods=['POST'])
 def upload():

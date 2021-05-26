@@ -9,6 +9,7 @@ from db import get_solusi, list_penyakit
 import json
 import requests
 import os
+from savedata import save_data
 
 model_url = 'http://192.168.1.4:9000/model'
 app = flask.Flask(__name__)
@@ -36,6 +37,11 @@ def upload():
 					penyakit = r.text
 					solusi = get_solusi(penyakit)
 					result = {"penyakit":penyakit,"solusi":solusi}
+					#Masukkin data ke BigQuery
+					#lokasi=None karena belom bisa mengmbil lokasi user
+					lokasi=None
+					if penyakit != "tidak ada penyakit yang terdeteksi":
+						feedback = save_data(penyakit, lokasi)
 					return json.dumps(result)
 				#expected return:
 				#{"penyakit": "Leaf Smut", "solusi": ["Menjaga kebersihan sawah dari sisa - sisa tanaman yang terinfeksi", "hindari penggunaan pupuk Nitrogen yang berlebihan", "Jika masih terinfeksi, tanam varietas padi yang memiliki ketahanan terhadap leaf smut."]}

@@ -2,6 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bangkit.capstone.padiman">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/padiman"
@@ -9,9 +18,16 @@
         android:roundIcon="@drawable/padiman"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.DetailActivity"></activity>
-        <activity android:name=".view.MainActivity" />
-        <activity android:name=".view.SplashScreenActivity">
+        <activity android:name=".view.DetailActivity"/>
+        <activity android:name=".view.AboutActivity"
+            android:label="Tentang Aplikasi"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".view.DiseaseListActivity"
+            android:label="Daftar Penyakit"/>
+        <activity android:name=".view.DetectorActivity"
+            android:label="Deteksi Penyakit"/>
+        <activity android:name=".view.SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,17 +1,52 @@
 <resources>
     <string name="app_name">Padiman</string>
-    <string name="upload_gambar">Upload Gambar</string>
+    <string name="diseases_detector">Deteksi Penyakit</string>
     <string name="daftar_penyakit">Daftar Penyakit</string>
     <string name="nama_penyakit">Nama Penyakit</string>
     <string name="detail">Detail</string>
+    <string name="about">About</string>
+    <string name="gambar">Gambar</string>
+    <string name="deteksi">Deteksi</string>
 
     <string name="title_upload">Silahkan Inputkan Gambar</string>
-    <string name="next">Next</string>
+    <string name="detect">Detect</string>
+    <string name="gallery_upload">Gallery</string>
+    <string name="camera_upload">Camera</string>
 
     <string name="name_penyakit">Nama Penyakit :</string>
     <string name="solusi">Solusi :</string>
     <string name="isi_solusi">Isi Solusi</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- ERROR MESSAGE -->
+    <string name="error_1">Bad Request</string>
+    <string name="error_2">Forbidden</string>
+    <string name="error_3">Not Found</string>
+
+    <!-- ABOUT -->
+    <string name="project_id_b21_cap0157">Project ID: B21-CAP0157</string>
+    <string name="isiteks">Project Name :</string>
+    <string name="isiteks2">Padi-man</string>
+    <string name="isiteks3">Project Themes: </string>
+    <string name="isiteks4">Environmental Conservation, Disaster Resilience, and Climate Change</string>
+    <string name="isiteks5">Project Team Members:</string>
+
+    <string name="nama1">Muhammad Farhan Fauzan (A1931923) - Mobile Programming (Android)</string>
+    <string name="nama2">Uji Khaidah Resti (A2482353) - Mobile Programming (Android)</string>
+    <string name="nama3">Denny Lee (C0050428) - Cloud Computing</string>
+    <string name="nama4">Steven Christian (C0050410) - Cloud Computing </string>
+    <string name="nama5">Wilbert Hartono Yudith (M1721800) - Machine Learning</string>
+    <string name="nama6">Stefanie Chandra (M1721802) - Machine Learning</string>
+
+    <string name="isiteks6">Executive Summary: </string>
+    <string name="isiteks7">
+Indonesia is identical to its rice fields and rice farmers. Our project will help and educate them in
+detecting and battling diseases that they will face. Our research question is “Do farmers have
+sufficient knowledge about diseases that can attack their rice plants?”. Many types of diseases can
+infect rice plants which result in crop failures and not all farmers receive optimal education on these
+issues. Some of these diseases are hard to detect. A disease called “Sheath Blight” on rice crops can
+cause a yield loss of up to 50%. This is why we are confident our project can have a positive impact
+on the environment.</string>
+
+
+
 </resources>

@@ -5,19 +5,88 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/white"
-    tools:context=".view.MainActivity">
+    android:gravity="center"
+    android:background="@color/background"
+    tools:context=".MainActivity">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabs_layout"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        app:tabTextColor="@color/black"/>
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
 
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/view_pager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/btn_detector"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center|center"
+                    android:paddingTop="200dp"
+                    android:singleLine="false"
+                    android:text="@string/diseases_detector"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/customshaperounded"
+                    android:elevation="5dp"
+                    android:padding="30dp"
+                    app:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/detector"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.5">
+
+                <Button
+                    android:id="@+id/btn_disease"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:gravity="center|center"
+                    android:paddingTop="200dp"
+                    android:singleLine="false"
+                    android:text="@string/daftar_penyakit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/customshaperounded"
+                    android:elevation="5dp"
+                    android:padding="30dp"
+                    android:src="@drawable/diseased"
+                    app:tint="@color/colorPrimaryDark" />
+            </RelativeLayout>
+        </TableRow>
+
+<!--        <TableRow-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:weightSum="1">-->
+<!--        </TableRow>-->
+    </TableLayout>
 
 </LinearLayout>

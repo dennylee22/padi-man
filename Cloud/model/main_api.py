@@ -23,5 +23,8 @@ class Model(Resource):
 		#print(res)
 		return(res)
 api.add_resource(Model,"/model")
-
-app.run(host='0.0.0.0',port=9000)
+@app.route('/')
+def hello_world():
+   return 'Hello from Team Rice is Nice!' 
+if __name__ == '__main__':
+   app.run(host='0.0.0.0',port=9000)

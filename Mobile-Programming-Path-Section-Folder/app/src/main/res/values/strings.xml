@@ -5,22 +5,15 @@
     <string name="nama_penyakit">Nama Penyakit</string>
     <string name="detail">Detail</string>
     <string name="about">About</string>
-    <string name="gambar">Gambar</string>
-    <string name="deteksi">Deteksi</string>
 
     <string name="title_upload">Silahkan Inputkan Gambar</string>
-    <string name="detect">Detect</string>
+    <string name="next">Next</string>
     <string name="gallery_upload">Gallery</string>
     <string name="camera_upload">Camera</string>
 
     <string name="name_penyakit">Nama Penyakit :</string>
     <string name="solusi">Solusi :</string>
     <string name="isi_solusi">Isi Solusi</string>
-
-    <!-- ERROR MESSAGE -->
-    <string name="error_1">Bad Request</string>
-    <string name="error_2">Forbidden</string>
-    <string name="error_3">Not Found</string>
 
     <!-- ABOUT -->
     <string name="project_id_b21_cap0157">Project ID: B21-CAP0157</string>
@@ -48,5 +41,40 @@ cause a yield loss of up to 50%. This is why we are confident our project can ha
 on the environment.</string>
 
 
+    <string name="gambar">Gambar</string>
+    <string name="poster">Poster</string>
+    <string name="solusii">Solusi</string>
+    <string name="nama">Nama</string>
+    <string name="deteksi">Deteksi</string>
+
+    <string-array name="avatar">
+        <item>@drawable/bacterialblight</item>
+        <item>@drawable/riceblast</item>
+<!--        <item>@drawable/tungro</item>-->
+        <item>@drawable/sheathblight</item>
+    </string-array>
+
+    <string-array name="id">
+        <item>Bercak Daun Cokelat</item>
+        <item>Hawar Daun Bakteri/Kresek</item>
+<!--        <item>Tungro</item>-->
+        <item>Leaf Smut</item>
+    </string-array>
+
+    <string-array name="res">
+        <item>
+            Cara pencegahan  penyakit Bercak daun cokelat ngro adalah yang pertama adalah dengan membuatj jarak tanam yang tidak terlalu rapat terutama saat musim hujan, jika perlu gunakan cara tanam sistem legowo. Kedua jangan gunakan urea yang berlebih dan imbangi dengan unsur Kalium. Ketiga aplikasikan fungisida pada daun tanaman padi, contoh: antracol, dithane, dan fungisida kontak lain sebagai pencegahnya. Jika sudah terserang gunakan fungisida sistemik seperti score, anvil, folicur, Nativo, opus, indar dll.keempat penanaman varietas tahan, seperti Ciherang dan Membrano. Kelima pemupukan berimbang yang lengkap, yaitu 250 kg urea, 100 kg SP36, dan 100 kg KCl per hektar. Dan terakhir lakukan penyemprotan fungisida dengan bahan aktif difenoconazol, azoxistrobin, belerang, difenokonazol, tebukonazol, karbendazim, metil tiofanat, atau klorotalonil.
+        </item>
+        <item>
+            Cara pencegahan  penyakit  Hawar daun bakteri/Kresek yang pertama adalah dengan penanaman benih dan bibit yang sehat. Penanaman dengan sistem Legowo dan menggunakan sistem pengairan secara berselang (intermitten irrigation). Sistem tersebut membantu mengurangi terjadinya embun dan air gutasi dan gesekan daun antar tanaman yang menjadi media penularan pathogen. Yang kedua menghindari penggunaan pupuk Nitrogen yang terlalu tinggi serta hindari juga penggunaan pupuk Kalium yang terlalu sedikit. Gunakan pupuk Nitrogen seimbang dengan pupuk Kalium. Yang terakhir Menjaga kebersihan sawah dari gulma dan sisa - sisa tanaman yang terinfeksi.
+</item>
+<!--     <item>-->
+<!--         Cara pencegahan  penyakit Tungro adalah yang pertama adalah dengan membuat perangkap cahaya harus dipasang untuk menarik dan mengendalikan vektor wereng daun serta untuk memantau populasinya. Kedua, saat pagi hari populasi wereng yang hinggap di dekat light trap harus dibunuh dengan cara menyemprot / membersihkan debu insektisida.  Ini harus dilakukan setiap hari.  Ketiga penanaman varietas yang tahan terhadap penyakit virus tungro merupakan cara yang paling ekonomis untuk menanggulangi penyakit. gunakan varietas tahan seperti IR 36, IR 50, ADT 37, Ponmani, Co 45, Co 48, Surekha, Vikramarya, Bharani, IR 36 dan ponni putih. Keempat, di antara praktik pengelolaan budaya, disarankan untuk menyesuaikan tanggal penanaman. Demikian pula, mengamati periode kosong setidaknya satu bulan untuk menghilangkan inang dan virus serta vektor penyakit. Di daerah epidemi ikuti rotasi dengan kacang-kacangan atau biji minyak. Terapkan bungkil neem @ 12,5 kg / 20 sen persemaian sebagai dosis dasar. Dan terakhir membajak ladang untuk menghancurkan tunggul segera setelah panen untuk membasmi inang tungro lainnya juga disarankan. Penghancuran inang gulma di pematang.-->
+<!--     </item>-->
+
+  <item>
+      Cara pencegahan  penyakit Leaf Smut adalah dengan menjaga kebersihan sawah dari sisa - sisa tanaman yang terinfeksi serta hindari penggunaan pupuk Nitrogen yang berlebihan. Jika masih terinfeksi, tanam varietas padi yang memiliki ketahanan terhadap leaf smut.
+  </item>
+    </string-array>
 
 </resources>

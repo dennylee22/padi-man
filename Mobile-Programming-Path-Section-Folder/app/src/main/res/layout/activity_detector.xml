@@ -16,8 +16,7 @@
             android:padding="16dp"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            tools:context=".view.DetectorActivity">
-
+            tools:context=".detector.DetectorActivity">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -25,13 +24,13 @@
                 android:textColor="#405F6E"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:layout_marginTop="24dp"/>
+                android:layout_marginTop="18dp"/>
 
             <ImageView
-                android:id="@+id/image_upload"
+                android:id="@+id/imageView"
                 android:layout_width="250dp"
                 android:layout_height="350dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="30dp"
                 android:layout_gravity="center|top"
                 android:adjustViewBounds="true"
                 android:background="@color/background"
@@ -59,7 +58,7 @@
                     android:textSize="18sp" />
 
                 <Button
-                    android:id="@+id/btn_gallery"
+                    android:id="@+id/fab"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_marginTop="10dp"
@@ -94,27 +93,28 @@
                         android:text="@string/name_penyakit"/>
                 </LinearLayout>
 
-                    <TextView
-                        android:id="@+id/text_penyakit"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="4dp"
-                        android:text="@string/nama_penyakit"
-                        android:textSize="16sp"
-                        android:textStyle="italic"/>
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="@string/nama_penyakit"
+                    android:textSize="16sp"
+                    android:textStyle="italic"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    android:layout_marginTop="20dp"
                     android:text="@string/solusi"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <TextView
-                        android:id="@+id/text_solusi"
+                        android:id="@+id/textView_solusi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -123,7 +123,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/btn_next"
+                android:id="@+id/fabUpload"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"

@@ -25,7 +25,7 @@ gambarsmut = "https://drive.google.com/uc?id=1Ozocwhm5fkbCOaLbRrgbpWEENXorHA56"
 dict = {0:'Hawar Daun Bakteri/Kresek',1:'Bercak Daun Cokelat',2:'Leaf Smut'}
 img_dict = {'Hawar Daun Bakteri/Kresek':gambarkresek,'Bercak Daun Cokelat':gambarbercak,'Leaf Smut':gambarsmut}
 allowed_files = {'.png','.jpg','.jpeg'}
-allowed_mime = {'image/png','image/jpeg','image/jpg'}
+allowed_mime = {'image/png','image/jpeg','image/jpg','image\/png','image\/jpeg','image\/jpg'}
 
 class Upload(Resource):
         def post(self):

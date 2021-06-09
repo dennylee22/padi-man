@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.bangkit.capstone.padiman.MainActivity
 import com.bangkit.capstone.padiman.R
 
 class SplashScreenActivity : AppCompatActivity() {
